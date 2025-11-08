@@ -327,11 +327,11 @@ body {
 }
 
 
-.Sign-in-main {
+.sign-in-main { /* Changed to lowercase 's' to match your HTML */
+  display: flex; /* Added this line to activate centering */
+  align-items: center; /* This will vertically center the form */
+  justify-content: center; /* This will horizontally center the form */
   min-height: 80vh;
-  box-align:center;
-  align-items: center;
-  justify-content: center;
   background: transparent;
   margin-top: 30px;
 }
